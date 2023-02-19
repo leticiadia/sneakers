@@ -258,7 +258,7 @@ main .content-right .footer .creator-role p:nth-child(1) {
     height: 520px;
     width: 795px;
 
-    background-image: url(/assets/images/allstar.png);
+    background-image: url("/assets/images/allstar.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
