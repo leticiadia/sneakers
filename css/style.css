@@ -294,8 +294,6 @@ main .content-right .footer .creator-role p:nth-child(1) {
   }
 
   .primary-navigation {
-    /* --gap: 2rem; */
-
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 30%;
@@ -386,17 +384,28 @@ main .content-right .footer .creator-role p:nth-child(1) {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .primary-header {
-    gap: 10rem;
+    gap: 14rem;
   }
 
   .primary-header {
     justify-content: center;
   }
 
+  main .content-right .image {
+    height: 240px;
+    width: 372px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .primary-header {
+    gap: 10rem;
+  }
+
   .primary-header .logo-page {
-    padding: 0s;
+    padding: 0;
   }
 
   main .content-left .column-top p {
